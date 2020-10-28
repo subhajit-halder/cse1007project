@@ -5,7 +5,7 @@ cse1007 project for creating a checksum generating application
 
 # Group Members;
 
-Subhajit Halder 19bcn7039 
+Subhajit Halder 19bcn7039 ( sha-256)
 
 H. Ajin Kumar 19bcd7145
 
