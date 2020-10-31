@@ -19,25 +19,22 @@ do
 	switch(expression) {
   case 1:
      //subhajit's code
-    // sha256 obj=new sha256();
-    sha256.main(null);
+    sha256.main(args);
     break;
   case 2:
     //ajin's code 
+    sha512.main(args);			
     break;
   case 3:
    //pranav's code 
     break;
   case 4:
    //dhanunjay's code 
+    md5.main(args);			
     break;  
 
-  default:
-    	System.out.println("enter a valid argument");
-
 }
-	// System.out.println("find another checksum (y/n)");
- //    char argument = in.next().charAt(0);
+
     }while(expression<5); 
 }
 }
