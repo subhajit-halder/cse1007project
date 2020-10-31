@@ -10,7 +10,7 @@ public class MD6Checksum {
     private static final Logger logger = Logger.getLogger(MD5Checksum.class.getName());
    
     public static void main(String args[]) {
-        String file = "C:/temp/abc.txt";
+        String file = filex;
       
         System.out.println("MD6 checksum for file using Java :                          "
                             + checkSum(file));
