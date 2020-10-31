@@ -10,9 +10,9 @@ do
 {
 	System.out.println("enter the corresponding number for preferred algorithm");
 	System.out.println("1 for sha-256");
-	System.out.println("2 for ajin");
+	System.out.println("2 for sha-512");
 	System.out.println("3 for pranav");
-	System.out.println("4 for dhanunjay");
+	System.out.println("4 for md5");
 	System.out.println("5 to end loop");
 
     expression = in.nextInt();
