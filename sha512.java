@@ -10,7 +10,7 @@ import java.util.*;
 
  
 
-          public class Main { 
+          public class sha512 { 
 
   
 
