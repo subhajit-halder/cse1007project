@@ -10,7 +10,17 @@ public class MD6Checksum {
     private static final Logger logger = Logger.getLogger(MD5Checksum.class.getName());
    
     public static void main(String args[]) {
-        String file = filex;
+       
+                     Scanner oj=new Scanner(System.in); 
+
+             System.out.println("ENTER THE FILE PATH:"); 
+
+                try { 
+
+                     String file = oj.nextLine(); 
+
+                    System.out.println(getMD6Checksum (file)); 
+
       
         System.out.println("MD6 checksum for file using Java :                          "
                             + checkSum(file));
@@ -18,7 +28,7 @@ public class MD6Checksum {
                             + checkSumApacheCommons(file));
 
     }
- public static String checkSum(String path){
+ public static String MD6checkSum(String path){
         String checksum = null;
         try {
             FileInputStream fis = new FileInputStream(path);
@@ -50,4 +60,4 @@ public class MD6Checksum {
         return checksum;
     }
 
-}
+   
