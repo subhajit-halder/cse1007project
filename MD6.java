@@ -24,7 +24,7 @@ public class MD6Checksum {
             FileInputStream fis = new FileInputStream(path);
             MessageDigest md = MessageDigest.getInstance("MD5");
           
-            //Using MessageDigest update() method to provide input
+            
             byte[] buffer = new byte[8192];
             int numOfBytesRead;
             while( (numOfBytesRead = fis.read(buffer)) &gt; 0){
