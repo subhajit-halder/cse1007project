@@ -3,7 +3,7 @@ import java.io.*;
 		 import java.util.*;
 		 
 
-		 public class Main {
+		 public class md5 {
 
 		    public static byte[] createChecksum(String filename) throws Exception {
 		        InputStream fis =  new FileInputStream(filename);
