@@ -33,8 +33,12 @@ public class sha256 {
         System.out.println("Enter the file path");
         try{
             String filepath=in.nextLine();
+            System.out.println(".");
+            System.out.println(".");
             System.out.println("SHA-256 hash for the above file is :");
             System.out.println(digestoffile(filepath));
+            System.out.println(".");
+            System.out.println(".");
 
         }
 
