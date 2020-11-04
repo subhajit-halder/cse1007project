@@ -3,7 +3,7 @@ import java.math.BigInteger;
 import java.security.MessageDigest; 
 import java.security.NoSuchAlgorithmException; 
   
-public class GFG { 
+public class Sha384 { 
     public static String encryptThisString(String input) 
     { 
         try { 
@@ -34,8 +34,7 @@ public class GFG {
         } 
     } 
   
-    public static void main(String args[]) throws 
-                                 NoSuchAlgorithmException 
+    public static void main(String args[]) 
     { 
  Scanner obj=new Scanner(System.in); 
 
