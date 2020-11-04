@@ -2,7 +2,7 @@ import java.util.*;
 import java.math.BigInteger; 
 import java.security.MessageDigest; 
  
-public class GFG { 
+public class Sha384 { 
     public static String encryptThisString(String input)
     { 
         try { 
