@@ -4,7 +4,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException; 
   
 public class Sha384 { 
-    public static String encryptThisString(String input) 
+    public static String encryptThisString(String input)throws exception
     { 
         try { 
            
