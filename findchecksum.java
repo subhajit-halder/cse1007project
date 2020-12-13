@@ -27,6 +27,7 @@ do
     break;
   case 3:
    //pranav's code 
+    Sha384.main(args);			
     break;
   case 4:
    //dhanunjay's code 
